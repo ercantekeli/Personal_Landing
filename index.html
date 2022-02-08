@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ercan Tekeli | Programming Practice </title>
+    <meta name="keywords" content="Python, Java, JavaScript">
+    <meta name="description" content="Ercan Tekeli | Programming Practice">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-widt:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-widt:500px)" href="css/mobile.css">
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Ercan Tekeli</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#training">Trainings</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <section id="home">
+        <img src="./images/ercantekeli.jpg" alt="Ercan Tekeli">
+
+        <div class="name text-center">
+            <h2 class="heading-big">Ercan Tekeli</h2>
+            <p>Full Stack Developer</p>
+        </div>
+        <a href="#courses" class="btn btn-primary">Go to Courses</a>
+
+    </section>
+
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Trainings</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa thin fa-atom"></i>
+                <h3>In Class Trainings</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, saepe.
+                </p>
+            </article>
+
+            <article class="item">
+                <i class="fa thin fa-atom"></i>
+                <h3>Online Trainings</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, saepe.
+                </p>
+            </article>
+
+            <article class="item">
+                <i class="fa thin fa-atom"></i>
+                <h3>Conferences</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum, saepe.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h3 class="text-center heading-medium">Courses</h3>
+
+        <div class="container">
+            <div class="courses">
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./images/python.jpg" alt="Phyton">
+                        <span>90% Sale</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="instructor">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="rating">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./images/java.jpg" alt="Java">
+                        <span>90% Sale</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="instructor">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="rating">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./images/javascript.jpg" alt="javascript">
+                        <span>90% Sale</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="instructor">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                        <div class="rating">
+                            Lorem ipsum dolor sit amet.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form action="#">
+                <h4 class="text-center heading-medium">Contact Me</h4>
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="text" class="form-control" name="email" id="enail" placeholder="E-mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" class="form-control" id="message" rows="5"
+                        placeholder="Your message..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block">Send</button>
+            </form>
+
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/ercantekeli" class="fab fa-linkedin"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/ercantekeli" class="fab fa-github"></a>
+                </li>
+                <li>
+                    <a href="#" class="fab fa-instagram"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
